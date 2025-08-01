@@ -1,0 +1,215 @@
+1.
+PS C:\Users\Utkarsh Kamat\Documents\.vscode\ids241lab\assignment1\my_project> git init
+Initialized empty Git repository in C:/Users/Utkarsh Kamat/Documents/.vscode/ids241lab/assignment1/my_project/.git/
+
+2.
+PS C:\Users\Utkarsh Kamat\Documents\.vscode\ids241lab\assignment1\my_project> git config --global user.name "Utkarsh Kamat"
+PS C:\Users\Utkarsh Kamat\Documents\.vscode\ids241lab\assignment1\my_project> git config --global user.email "mscids2024.utkarsh@unigoa.ac.in"
+
+3. 
+PS C:\Users\Utkarsh Kamat\Documents\.vscode\ids241lab\assignment1\my_project> git add main.py
+[master (root-commit) a9ade78] Initial commit with main.py
+ create mode 100644 main.py
+
+PS C:\Users\Utkarsh Kamat\Documents\.vscode\ids241lab\assignment1\my_project> git commit -m "added a comment to main.py"
+[master 7775c01] added a comment to main.py
+ 1 file changed, 1 insertion(+)
+
+4.
+    Initial commit with main.py
+PS C:\Users\Utkarsh Kamat\Documents\.vscode\ids241lab\assignment1\my_project> git add utils.py
+[master fff438e] added utils.py in the repository
+ 1 file changed, 1 insertion(+)
+ create mode 100644 utils.py
+
+PS C:\Users\Utkarsh Kamat\Documents\.vscode\ids241lab\assignment1\my_project> git log
+commit 5800f725354c90b3bec008243d6ba7fe93dcf466 (HEAD -> master, origin/master)
+Author: Utkarsh Kamat <mscids2024.utkarsh@ungoa.ac.in>
+Date:   Fri Aug 1 15:35:47 2025 +0530
+
+    added a .gitignore file
+
+commit fff438e32968364299c3600101ea3de4ffe5289a
+Author: Utkarsh Kamat <mscids2024.utkarsh@unigoa.ac.in>
+Date:   Fri Aug 1 15:34:23 2025 +0530
+
+    added utils.py in the repository
+
+commit 7775c01d60d4cbc58425a3574a088501a8ee4bd1
+Author: Utkarsh Kamat <mscids2024.utkarsh@unigoa.ac.in>
+Date:   Fri Aug 1 15:18:24 2025 +0530
+
+    added a comment to main.py
+
+commit a9ade786c952463e2750664d1a5941e674b9fa0b
+Author: Utkarsh Kamat <mscids2024.utkarsh@unigoa.ac.in>
+Date:   Fri Aug 1 15:17:23 2025 +0530
+
+    Initial commit with main.py
+
+5. 
+PS C:\Users\Utkarsh Kamat\Documents\.vscode\ids241lab\assignment1\my_project> git add .
+
+PS C:\Users\Utkarsh Kamat\Documents\.vscode\ids241lab\assignment1\my_project> git commit -m "added a demonstration command"
+[master e01e06f] added a demonstration command
+ 1 file changed, 2 insertions(+)
+
+PS C:\Users\Utkarsh Kamat\Documents\.vscode\ids241lab\assignment1\my_project> git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 401 bytes | 401.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0        
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/ushiecodes/my_project.git
+   5800f72..e01e06f  master -> master
+PS C:\Users\Utkarsh Kamat\Documents\.vscode\ids241lab\assignment1\my_project>
+
+6.
+PS C:\Users\Utkarsh Kamat\Documents\.vscode\ids241lab\assignment1\my_project> git log
+commit e01e06f075a65ce95aa757f03aede91513419b36 (HEAD -> master, origin/master)
+Author: Utkarsh Kamat <mscids2024.utkarsh@unigoa.ac.in>
+Date:   Fri Aug 1 15:41:26 2025 +0530
+
+    added a demonstration command
+
+commit 5800f725354c90b3bec008243d6ba7fe93dcf466
+Author: Utkarsh Kamat <mscids2024.utkarsh@unigoa.ac.in>
+Date:   Fri Aug 1 15:35:47 2025 +0530
+
+    added a .gitignore file
+
+commit fff438e32968364299c3600101ea3de4ffe5289a
+Author: Utkarsh Kamat <mscids2024.utkarsh@unigoa.ac.in>
+Date:   Fri Aug 1 15:34:23 2025 +0530
+
+    added utils.py in the repository
+
+commit 7775c01d60d4cbc58425a3574a088501a8ee4bd1
+Author: Utkarsh Kamat <mscids2024.utkarsh@unigoa.ac.in>
+Date:   Fri Aug 1 15:18:24 2025 +0530
+
+    added a comment to main.py
+
+7.
+PS C:\Users\Utkarsh Kamat\Documents\.vscode\ids241lab\assignment1\my_project> git add .gitignore
+
+PS C:\Users\Utkarsh Kamat\Documents\.vscode\ids241lab\assignment1\my_project> git commit -m "added a .gitignore file"
+
+S C:\Users\Utkarsh Kamat\Documents\.vscode\ids241lab\assignment1\my_project> git log
+commit e01e06f075a65ce95aa757f03aede91513419b36 (HEAD -> master, origin/master)
+commit e01e06f075a65ce95aa757f03aede91513419b36 (HEAD -> master, origin/master)
+Author: Utkarsh Kamat <mscids2024.utkarsh@unigoa.ac.in>
+Date:   Fri Aug 1 15:41:26 2025 +0530
+
+    added a demonstration command
+
+commit 5800f725354c90b3bec008243d6ba7fe93dcf466
+Author: Utkarsh Kamat <mscids2024.utkarsh@unigoa.ac.in>
+Date:   Fri Aug 1 15:35:47 2025 +0530
+
+    added a .gitignore file
+
+commit fff438e32968364299c3600101ea3de4ffe5289a
+Author: Utkarsh Kamat <mscids2024.utkarsh@unigoa.ac.in>
+commit e01e06f075a65ce95aa757f03aede91513419b36 (HEAD -> master, origin/master)
+Author: Utkarsh Kamat <mscids2024.utkarsh@unigoa.ac.in>
+Date:   Fri Aug 1 15:41:26 2025 +0530
+
+    added a demonstration command
+
+commit 5800f725354c90b3bec008243d6ba7fe93dcf466
+Author: Utkarsh Kamat <mscids2024.utkarsh@unigoa.ac.in>
+Date:   Fri Aug 1 15:35:47 2025 +0530
+
+    added a .gitignore file
+
+commit fff438e32968364299c3600101ea3de4ffe5289a
+Author: Utkarsh Kamat <mscids2024.utkarsh@unigoa.ac.in>
+Date:   Fri Aug 1 15:34:23 2025 +0530
+
+    added utils.py in the repository
+
+commit 7775c01d60d4cbc58425a3574a088501a8ee4bd1
+Author: Utkarsh Kamat <mscids2024.utkarsh@unigoa.ac.in>
+Date:   Fri Aug 1 15:18:24 2025 +0530
+
+    added a comment to main.py
+
+commit a9ade786c952463e2750664d1a5941e674b9fa0b
+Author: Utkarsh Kamat <mscids2024.utkarsh@unigoa.ac.in>
+commit e01e06f075a65ce95aa757f03aede91513419b36 (HEAD -> master, origin/master)
+Author: Utkarsh Kamat <mscids2024.utkarsh@unigoa.ac.in>
+Date:   Fri Aug 1 15:41:26 2025 +0530
+
+    added a demonstration command
+
+commit 5800f725354c90b3bec008243d6ba7fe93dcf466
+Author: Utkarsh Kamat <mscids2024.utkarsh@unigoa.ac.in>
+Date:   Fri Aug 1 15:35:47 2025 +0530
+
+    added a .gitignore file
+
+commit fff438e32968364299c3600101ea3de4ffe5289a
+Author: Utkarsh Kamat <mscids2024.utkarsh@unigoa.ac.in>
+Date:   Fri Aug 1 15:34:23 2025 +0530
+
+    added utils.py in the repository
+
+commit 7775c01d60d4cbc58425a3574a088501a8ee4bd1
+Author: Utkarsh Kamat <mscids2024.utkarsh@unigoa.ac.in>
+Date:   Fri Aug 1 15:18:24 2025 +0530
+
+    added a comment to main.py
+
+commit a9ade786c952463e2750664d1a5941e674b9fa0b
+Author: Utkarsh Kamat <mscids2024.utkarsh@unigoa.ac.in>
+Date:   Fri Aug 1 15:17:23 2025 +0530
+
+    Initial commit with main.py
+:...skipping...
+commit e01e06f075a65ce95aa757f03aede91513419b36 (HEAD -> master, origin/master)
+Author: Utkarsh Kamat <mscids2024.utkarsh@unigoa.ac.in>
+Date:   Fri Aug 1 15:41:26 2025 +0530
+
+    added a demonstration command
+
+commit 5800f725354c90b3bec008243d6ba7fe93dcf466
+Author: Utkarsh Kamat <mscids2024.utkarsh@unigoa.ac.in>
+Date:   Fri Aug 1 15:35:47 2025 +0530
+
+    added a .gitignore file
+
+commit fff438e32968364299c3600101ea3de4ffe5289a
+Author: Utkarsh Kamat <mscids2024.utkarsh@unigoa.ac.in>
+Date:   Fri Aug 1 15:34:23 2025 +0530
+
+    added utils.py in the repository
+
+commit 7775c01d60d4cbc58425a3574a088501a8ee4bd1
+Author: Utkarsh Kamat <mscids2024.utkarsh@unigoa.ac.in>
+Date:   Fri Aug 1 15:18:24 2025 +0530
+
+    added a comment to main.py
+
+commit a9ade786c952463e2750664d1a5941e674b9fa0b
+Author: Utkarsh Kamat <mscids2024.utkarsh@unigoa.ac.in>
+Date:   Fri Aug 1 15:17:23 2025 +0530
+
+    Initial commit with main.py
+~
+(END)
+
+8.
+
+PS C:\Users\Utkarsh Kamat\Documents\.vscode\ids241lab\assignment1\my_project> git clone "https://github.com/anshumancodes/MindVault"
+Cloning into 'MindVault'...
+remote: Enumerating objects: 197, done.
+remote: Counting objects: 100% (197/197), done.
+remote: Compressing objects: 100% (145/145), done.
+Receiving objects:  49% (97/197)used 155 (delta 21), pack-reused 0 (from 0)Receiving objects:  46% (91/197)
+Receiving objects: 100% (197/197), 89.46 KiB | 366.00 KiB/s, done.
+Resolving deltas: 100% (60/60), done.
+
+9.
